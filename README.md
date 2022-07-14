@@ -1,6 +1,9 @@
 # View the website [here](https://ishansandhu.ca/task-management-app/)
 My Task Management system with user authentication and routing using Firebase and React.
 
+
+<img width="1023" alt="Screen Shot 2022-07-14 at 5 58 07 PM" src="https://user-images.githubusercontent.com/54157462/179115648-33edd009-c8b7-4a8e-b0c8-aae7c9af7dcb.png">
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
