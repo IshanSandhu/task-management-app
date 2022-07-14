@@ -68,7 +68,7 @@ const AddEdit = () => {
                 if (err) {
                     toast.error(err);
                 } else{
-                    toast.success("Contact added successfully");
+                    toast.success("Task added successfully");
                 }
             });
         } else {
@@ -76,7 +76,7 @@ const AddEdit = () => {
                 if (err) {
                     toast.error(err);
                 } else{
-                    toast.success("Contact updated successfully");
+                    toast.success("Task updated successfully");
                 }
             });
         }
@@ -106,7 +106,7 @@ const AddEdit = () => {
         />
         <label htmlFor="email">Description</label>
         <input
-          type="email"
+          type="text"
           id="email"
           name="email"
           placeholder="Enter your Description"
@@ -115,7 +115,7 @@ const AddEdit = () => {
         />
         <label htmlFor="contact">Link</label>
         <input
-          type="number"
+          type="text"
           id="contact"
           name="contact"
           placeholder="Enter your link"

@@ -32,7 +32,7 @@ const Home = ({ handleLogout }) => {
             if (err) {
                 toast.error(err);
             } else{
-                toast.success("Contact deleted successfully");
+                toast.success("Task completed successfully");
             }
         });
     }
