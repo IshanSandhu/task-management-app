@@ -27,7 +27,7 @@ const Home = ({ handleLogout }) => {
   }, []);
 
   const onDelete = (id) => {
-    if(window.confirm("Are you sure you want to delete this contact?")) {
+    if(window.confirm("Are you sure that the task is completed?")) {
         fire.database().ref().child(`contacts/${id}`).remove((err) => {
             if (err) {
                 toast.error(err);

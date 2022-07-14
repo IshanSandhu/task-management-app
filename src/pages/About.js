@@ -8,9 +8,12 @@ const About = () => {
           {""}
           Task Management System using React and Firebase
         </h2>
-        <Link to={{ pathname: "https://https://ishansandhu.ca/" }} target="_blank">
+        <br />
+        
+        <a href="https://ishansandhu.ca"
+          target='_blank' rel="noreferrer">
           Made by Ishan Sandhu 👨‍💻
-        </Link>
+        </a>
     </div>
   )
 }

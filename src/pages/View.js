@@ -24,22 +24,22 @@ const View = () => {
     <div style={{ marginTop: "150px" }}>
       <div className='card'>
         <div className='card-header'>
-          <p>User Contact Detail</p>
+          <p>Task Details</p>
         </div>
         <div className='container'>
           <strong>ID: </strong>
           <span>{id}</span>
           <br />
           <br />
-          <strong>Name: </strong>
+          <strong>Task: </strong>
           <span>{user.name}</span>
           <br />
           <br />
-          <strong>Email: </strong>
+          <strong>Description: </strong>
           <span>{user.email}</span>
           <br />
           <br />
-          <strong>Contact: </strong>
+          <strong>Link: </strong>
           <span>{user.contact}</span>
           <br />
           <br />
